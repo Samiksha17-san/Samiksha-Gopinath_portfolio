@@ -1,0 +1,116 @@
+/* Typography */
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+/* Spacing Scale (8–16–24–32) */
+.section {
+  padding: 32px 0;
+}
+
+.section-title {
+  margin-bottom: 24px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+/* Links and Buttons */
+a {
+  color: #66b3ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #66b3ff;
+  border: none;
+  padding: 12px 24px;
+}
+
+.btn-primary:hover {
+  background-color: #1e90ff;
+}
+
+.btn-outline {
+  border: 2px solid #66b3ff;
+  padding: 10px 22px;
+  color: #66b3ff;
+}
+
+.btn-outline:hover {
+  background-color: #66b3ff;
+  color: #000;
+}
+
+/* Styled List */
+.styled-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.styled-list li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  color: #ffffff;
+}
+
+.styled-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #66b3ff;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Component 1: Navbar */
+.header {
+  background-color: #111;
+  padding: 20px 0;
+}
+
+.navmenu a {
+  color: #cccccc;
+}
+
+.navmenu a:hover,
+.navmenu .active {
+  color: #66b3ff;
+}
+
+/* Component 2: Back-to-top button */
+#scroll-top {
+  background: #66b3ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#scroll-top:hover {
+  background: #1e90ff;
+}
+
+/* Skills Section Text Improvements */
+#skills h2 {
+  color: #ffffff;
+}
+
+#skills p {
+  color: #d0d0d0;
+}
